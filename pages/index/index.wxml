@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+	<view wx:for-items="{{gamelist}}" wx:for-index="idx" wx:key="idx" class="usermotto">
+	    <button type="default" disabled="{{disabled}}" bindtap="begin{{item}}" plain='true'> {{item}}       </button>
+	</view>
+
+	<text class="more">更多内容，敬请期待...</text>
+</view>

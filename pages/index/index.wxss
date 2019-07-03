@@ -1,0 +1,6 @@
+.more{
+color:rgb(154, 165, 153);
+font-size: 14px;
+position:fixed;
+bottom: 20px;
+}
